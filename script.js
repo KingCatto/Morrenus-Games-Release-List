@@ -6,6 +6,10 @@ const gamesPerPage = 12;
 let filteredGames = [];
 let filteredRepacks = [];
 
+// JSON file URLs
+const GAMES_JSON_URL = 'https://raw.githubusercontent.com/KingCatto/Morrenus-Games-Release-List/refs/heads/main/games.json';
+const REPACKS_JSON_URL = 'https://raw.githubusercontent.com/KingCatto/Morrenus-Games-Release-List/refs/heads/main/repacks.json';
+
 // Create space background
 const spaceBackground = document.getElementById('spaceBackground');
 
@@ -64,42 +68,6 @@ function createNebulas() {
     }
 }
 
-// Create planets
-function createPlanets() {
-    const planets = [
-        { 
-            size: 100, 
-            color: 'linear-gradient(45deg, #ff4444, #aa2222)', 
-            speed: 30,
-            orbitRadius: 150
-        },
-        { 
-            size: 80, 
-            color: 'linear-gradient(45deg, #4444ff, #2222aa)', 
-            speed: 20,
-            orbitRadius: 200
-        },
-        { 
-            size: 120, 
-            color: 'linear-gradient(45deg, #9944ff, #662299)', 
-            speed: 25,
-            orbitRadius: 250
-        }
-    ];
-
-    planets.forEach(({ size, color, speed, orbitRadius }) => {
-        const planet = document.createElement('div');
-        planet.className = 'planet';
-        planet.style.width = `${size}px`;
-        planet.style.height = `${size}px`;
-        planet.style.background = color;
-        planet.style.animationDuration = `${speed}s`;
-        planet.style.left = `${50 + Math.random() * 20}%`;
-        planet.style.top = `${50 + Math.random() * 20}%`;
-        spaceBackground.appendChild(planet);
-    });
-}
-
 // Parse Steam game title into components
 function parseGameTitle(fullTitle) {
     const parts = fullTitle.split(' Build ');
@@ -147,11 +115,11 @@ function parseRepackTitle(fullTitle) {
     };
 }
 
-// Load and parse both Steam games and repacks
+// Load and parse games
 async function loadGames() {
     try {
         // Load Steam games
-        const steamResponse = await fetch('games.json');
+        const steamResponse = await fetch(GAMES_JSON_URL);
         const rawGames = await steamResponse.json();
         allGames = rawGames.map(game => {
             const parsed = parseGameTitle(game.title);
@@ -165,7 +133,7 @@ async function loadGames() {
         filteredGames = [...allGames];
         
         // Load Repacks
-        const repackResponse = await fetch('repacks.json');
+        const repackResponse = await fetch(REPACKS_JSON_URL);
         const rawRepacks = await repackResponse.json();
         allRepacks = rawRepacks.map(repack => {
             const parsed = parseRepackTitle(repack.title);
@@ -182,46 +150,23 @@ async function loadGames() {
         setupPagination();
     } catch (error) {
         console.error('Error loading games:', error);
-        // Fallback to sample data if needed
-        handleLoadError();
+        showError('Unable to load games. Please try again later.');
     }
 }
 
-// Handle load error with sample data
-function handleLoadError() {
-    // Sample Steam game
-    const sampleGame = {
-        title: "A Game About Flicking A Switch Build 15398309 Windows",
-        cover: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2672850/header.jpg?t=1718979371",
-        link: "https://cs.rin.ru/forum/viewtopic.php?p=3205105#p3205105"
-    };
-    const parsed = parseGameTitle(sampleGame.title);
-    allGames = [{
-        ...sampleGame,
-        parsedTitle: parsed.title,
-        version: parsed.version,
-        platforms: parsed.platforms
-    }];
-    filteredGames = [...allGames];
-
-    // Sample Repack
-    const sampleRepack = {
-        title: "Sample.Game.B1000000.MorrenusGames",
-        cover: "https://example.com/cover.jpg",
-        link: "https://example.com/download"
-    };
-    const parsedRepack = parseRepackTitle(sampleRepack.title);
-    allRepacks = [{
-        ...sampleRepack,
-        parsedTitle: parsedRepack.title,
-        version: parsedRepack.version
-    }];
-    filteredRepacks = [...allRepacks];
-
-    renderGames();
-    renderRepacks();
-    setupPagination();
+// Show error message to user
+function showError(message) {
+    const steamGamesContainer = document.getElementById('steamGames');
+    const repacksContainer = document.getElementById('repacksGrid');
+    
+    if (steamGamesContainer) {
+        steamGamesContainer.innerHTML = `<div class="error-message">${message}</div>`;
+    }
+    if (repacksContainer) {
+        repacksContainer.innerHTML = `<div class="error-message">${message}</div>`;
+    }
 }
+
 // Render Steam games
 function renderGames() {
     const steamGamesContainer = document.getElementById('steamGames');
@@ -280,7 +225,7 @@ function renderRepacks() {
                 <div class="game-title">${repack.parsedTitle}</div>
                 ${repack.version ? `<div class="game-meta">Version: <span>${repack.version}</span></div>` : ''}
                 <div class="game-links">
-                    <a href="${repack.link}" class="download-link" target="_blank">Download</a>
+                    <a href="${repack.link}" class="forum-link" target="_blank">Forum Page</a>
                     ${repack.store ? `<a href="${repack.store}" class="store-link" target="_blank">Steam Store</a>` : ''}
                 </div>
             </div>
@@ -373,11 +318,43 @@ function showTab(tabId) {
     setupPagination();
 }
 
+function createSolarSystem() {
+    // Create sun
+    const sun = document.createElement('div');
+    sun.className = 'sun';
+    spaceBackground.appendChild(sun);
+
+    // Create orbit paths
+    const orbits = [120, 160, 200, 240]; // Mercury, Venus, Earth, Mars
+    orbits.forEach(radius => {
+        const orbit = document.createElement('div');
+        orbit.className = 'orbit-path';
+        orbit.style.width = `${radius * 2}px`;
+        orbit.style.height = `${radius * 2}px`;
+        spaceBackground.appendChild(orbit);
+    });
+
+    // Create planets
+    const planets = [
+        { name: 'mercury', size: 20 },
+        { name: 'venus', size: 30 },
+        { name: 'earth', size: 35 },
+        { name: 'mars', size: 25 }
+    ];
+
+    planets.forEach(planet => {
+        const planetElement = document.createElement('div');
+        planetElement.className = `planet ${planet.name}`;
+        spaceBackground.appendChild(planetElement);
+    });
+}
+
+
 // Initialize space background and load games
 function initialize() {
     createStars();
     createNebulas();
-    createPlanets();
+    createSolarSystem();
     loadGames();
 }
 
