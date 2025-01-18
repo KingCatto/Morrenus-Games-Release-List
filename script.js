@@ -93,17 +93,22 @@ function parseRepackTitle(fullTitle) {
     // Split by dots
     const parts = fullTitle.split('.');
     
-    // Remove MorrenusGames from the end
-    parts.pop();
+    // Remove "MorrenusGames" or similar known suffix from the end
+    if (parts[parts.length - 1] === 'MorrenusGames') {
+        parts.pop();
+    }
     
     // Get the version (last part)
     let version = parts.pop();
     
     // Process version number
-    if (version.startsWith('B')) {
-        version = 'Build ' + version.substring(1);
-    } else if (version.startsWith('v')) {
-        version = version.substring(1);
+    const versionMatch = version.match(/^(B|v)(\d+(\.\d+)*)$/i); // Match 'B' or 'v' followed by numbers (with optional decimals)
+    if (versionMatch) {
+        const prefix = versionMatch[1]; // 'B' or 'v'
+        const versionNumbers = versionMatch[2]; // Numbers after the prefix
+        version = prefix === 'B' ? `Build ${versionNumbers}` : `Version ${versionNumbers}`;
+    } else {
+        version = 'Unknown Version'; // Fallback for unexpected formats
     }
     
     // Remaining parts are the game name
