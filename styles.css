@@ -1,0 +1,282 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #030612;
+    color: white;
+    min-height: 100vh;
+}
+
+/* Enhanced space background animations */
+@keyframes twinkle-small {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+@keyframes twinkle-medium {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 0.2; }
+}
+
+@keyframes twinkle-large {
+    0%, 100% { opacity: 1; }
+    30% { opacity: 0.4; }
+    70% { opacity: 0.6; }
+}
+
+@keyframes nebula-pulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.5; }
+}
+
+@keyframes orbit {
+    from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+.space-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    background: linear-gradient(125deg, #030612 0%, #0a1128 40%, #0f1629 60%, #161b2d 100%);
+}
+
+.star-small {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    animation: twinkle-small 3s ease-in-out infinite;
+}
+
+.star-medium {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.4);
+    animation: twinkle-medium 4s ease-in-out infinite;
+}
+
+.star-large {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+    animation: twinkle-large 5s ease-in-out infinite;
+}
+
+.nebula {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+    animation: nebula-pulse 8s ease-in-out infinite;
+    mix-blend-mode: screen;
+}
+
+.planet {
+    position: absolute;
+    border-radius: 50%;
+    animation: orbit 20s linear infinite;
+    box-shadow: inset -10px -10px 50px rgba(0, 0, 0, 0.5),
+                10px 10px 50px -20px rgba(255, 255, 255, 0.1);
+}
+
+/* Container and content styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(45deg, #4a9eff, #b84fff);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+    position: relative;
+}
+
+/* Search styles */
+.search-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.search-input {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #4a9eff;
+}
+
+/* Tabs styling */
+.tabs {
+    margin-bottom: 2rem;
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.tab-button {
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Games grid */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.game-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    border-color: #4a9eff;
+}
+
+.game-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Game info styling */
+.game-info {
+    margin-top: 1rem;
+}
+
+.game-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.game-meta {
+    font-size: 0.9rem;
+    color: #a0aec0;
+    margin-bottom: 0.25rem;
+}
+
+.game-meta span {
+    color: #4a9eff;
+}
+
+.game-platforms {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.platform-tag {
+    background: rgba(74, 158, 255, 0.2);
+    color: #4a9eff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+}
+
+/* Game card link */
+.game-card a {
+    color: #4a9eff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.game-card a:hover {
+    color: #b84fff;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.pagination button {
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.pagination button.active {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.pagination button:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Tab content */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}

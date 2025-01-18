@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morrenus Games Release List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="space-background" id="spaceBackground"></div>
+
+    <div class="container">
+        <h1>Morrenus Games Release List</h1>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search releases..." id="searchInput">
+        </div>
+
+        <div class="tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" onclick="showTab('steam')">Steam Clean Files</button>
+                <button class="tab-button" onclick="showTab('repacks')">Repacks</button>
+            </div>
+
+            <div class="tab-content active" id="steam">
+                <div class="games-grid" id="steamGames"></div>
+                <div class="pagination" id="pagination"></div>
+            </div>
+
+            <div class="tab-content" id="repacks">
+                <div class="games-grid" id="repacksGrid"></div>
+                <div class="pagination" id="repacksPagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

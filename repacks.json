@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Game.Name.B1000000.MorrenusGames",
+        "cover": "https://example.com/cover1.jpg",
+        "link": "https://example.com/download1"
+    },
+    {
+        "title": "Another.Game.v2000000.MorrenusGames",
+        "cover": "https://example.com/cover2.jpg",
+        "link": "https://example.com/download2"
+    }
+]
