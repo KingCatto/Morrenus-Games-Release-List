@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
 }
 
-/* Enhanced space background animations */
+/* Space background animations */
 @keyframes twinkle-small {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
@@ -39,6 +39,7 @@ body {
     to { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
 }
 
+/* Space background elements */
 .space-background {
     position: fixed;
     top: 0;
@@ -95,9 +96,9 @@ body {
                 10px 10px 50px -20px rgba(255, 255, 255, 0.1);
 }
 
-/* Container and content styles */
+/* Container and layout */
 .container {
-    max-width: 1200px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 2rem;
     position: relative;
@@ -109,11 +110,12 @@ h1 {
     font-size: 2.8rem;
     margin-bottom: 2rem;
     background: linear-gradient(45deg, #4a9eff, #b84fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1rem 0;
-    position: relative;
 }
 
 /* Search styles */
@@ -162,19 +164,27 @@ h1 {
     cursor: pointer;
     border-radius: 0.5rem;
     transition: background-color 0.3s;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .tab-button.active {
     background: rgba(255, 255, 255, 0.2);
 }
 
+.tab-button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
 /* Games grid */
 .games-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
     gap: 2rem;
+    padding: 1rem;
 }
 
+/* Card styling */
 .game-card {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 1rem;
@@ -182,6 +192,7 @@ h1 {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: transform 0.3s, border-color 0.3s;
+    width: 100%;
 }
 
 .game-card:hover {
@@ -189,21 +200,31 @@ h1 {
     border-color: #4a9eff;
 }
 
-.game-card img {
+/* Image container */
+.game-image-container {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 0.5rem;
+    height: 300px;
     margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.2);
 }
 
-/* Game info styling */
+.game-card img {
+    width: 450px;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Game info */
 .game-info {
-    margin-top: 1rem;
+    padding: 0.5rem;
 }
 
 .game-title {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 0.5rem;
@@ -212,13 +233,15 @@ h1 {
 .game-meta {
     font-size: 0.9rem;
     color: #a0aec0;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .game-meta span {
     color: #4a9eff;
+    font-weight: bold;
 }
 
+/* Platform tags */
 .game-platforms {
     display: flex;
     gap: 0.5rem;
@@ -232,18 +255,57 @@ h1 {
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
     font-size: 0.8rem;
+    font-weight: bold;
 }
 
-/* Game card link */
-.game-card a {
-    color: #4a9eff;
-    text-decoration: none;
-    display: inline-block;
+/* Links styling */
+.game-links {
+    display: flex;
+    gap: 1rem;
     margin-top: 1rem;
+    flex-wrap: wrap;
 }
 
-.game-card a:hover {
-    color: #b84fff;
+.game-links a {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Forum link */
+.forum-link {
+    background: rgba(74, 158, 255, 0.2);
+    color: #4a9eff;
+}
+
+.forum-link:hover {
+    background: rgba(74, 158, 255, 0.3);
+    color: white;
+}
+
+/* Store link */
+.store-link {
+    background: rgba(0, 120, 255, 0.2);
+    color: #00b3ff;
+}
+
+.store-link:hover {
+    background: rgba(0, 120, 255, 0.3);
+    color: white;
+}
+
+/* Download link */
+.download-link {
+    background: rgba(0, 255, 100, 0.2);
+    color: #00ff64;
+}
+
+.download-link:hover {
+    background: rgba(0, 255, 100, 0.3);
+    color: white;
 }
 
 /* Pagination */
@@ -262,10 +324,12 @@ h1 {
     cursor: pointer;
     border-radius: 0.5rem;
     transition: background-color 0.3s;
+    min-width: 40px;
 }
 
 .pagination button.active {
     background: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
 }
 
 .pagination button:hover:not(.active) {
@@ -279,4 +343,25 @@ h1 {
 
 .tab-content.active {
     display: block;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 480px) {
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .game-card img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .game-links {
+        flex-direction: column;
+    }
+    
+    .game-links a {
+        width: 100%;
+        text-align: center;
+    }
 }

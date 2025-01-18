@@ -222,7 +222,6 @@ function handleLoadError() {
     renderRepacks();
     setupPagination();
 }
-
 // Render Steam games
 function renderGames() {
     const steamGamesContainer = document.getElementById('steamGames');
@@ -238,7 +237,9 @@ function renderGames() {
         const card = document.createElement('div');
         card.className = 'game-card';
         card.innerHTML = `
-            <img src="${game.cover}" alt="${game.parsedTitle}" loading="lazy">
+            <div class="game-image-container">
+                <img src="${game.cover}" alt="${game.parsedTitle}" loading="lazy">
+            </div>
             <div class="game-info">
                 <div class="game-title">${game.parsedTitle}</div>
                 ${game.version ? `<div class="game-meta">Version: <span>${game.version}</span></div>` : ''}
@@ -247,7 +248,10 @@ function renderGames() {
                         `<div class="platform-tag">${platform}</div>`
                     ).join('')}
                 </div>
-                <a href="${game.link}" target="_blank">View Details →</a>
+                <div class="game-links">
+                    <a href="${game.link}" class="forum-link" target="_blank">Forum Page</a>
+                    ${game.store ? `<a href="${game.store}" class="store-link" target="_blank">Steam Store</a>` : ''}
+                </div>
             </div>
         `;
         steamGamesContainer.appendChild(card);
@@ -269,11 +273,16 @@ function renderRepacks() {
         const card = document.createElement('div');
         card.className = 'game-card';
         card.innerHTML = `
-            <img src="${repack.cover}" alt="${repack.parsedTitle}" loading="lazy">
+            <div class="game-image-container">
+                <img src="${repack.cover}" alt="${repack.parsedTitle}" loading="lazy">
+            </div>
             <div class="game-info">
                 <div class="game-title">${repack.parsedTitle}</div>
                 ${repack.version ? `<div class="game-meta">Version: <span>${repack.version}</span></div>` : ''}
-                <a href="${repack.link}" target="_blank">Download →</a>
+                <div class="game-links">
+                    <a href="${repack.link}" class="download-link" target="_blank">Download</a>
+                    ${repack.store ? `<a href="${repack.store}" class="store-link" target="_blank">Steam Store</a>` : ''}
+                </div>
             </div>
         `;
         repacksContainer.appendChild(card);
