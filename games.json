@@ -310,5 +310,11 @@
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1885690/header.jpg",
         "store": "https://store.steampowered.com/app/1885690",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3188410#p3188410"
+    },
+    {
+        "title": "Beltex Build 10530830 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2051420/header.jpg",
+        "store": "https://store.steampowered.com/app/2051420",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205445#p3205445"
     }
 ]
