@@ -16,15 +16,19 @@ body {
 .header-container {
     margin-bottom: 2rem;
     padding: 1rem 0;
+    position: relative;
 }
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* Center the content */
     align-items: center;
     max-width: 1920px;
     margin: 0 auto;
     padding: 0 2rem;
+    position: relative;
+    /* For absolute positioning of settings */
 }
 
 h1 {
@@ -34,10 +38,16 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: white;
+    text-align: center;
+    /* Center the text */
 }
 
 .settings-container {
-    position: relative;
+    position: absolute;
+    right: 2rem;
+    /* Match padding of header-content */
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .settings-toggle {
@@ -109,24 +119,55 @@ h1 {
 
 /* Space background animations */
 @keyframes twinkle-small {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
 }
 
 @keyframes twinkle-medium {
-    0%, 100% { opacity: 0.8; }
-    50% { opacity: 0.2; }
+
+    0%,
+    100% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
 }
 
 @keyframes twinkle-large {
-    0%, 100% { opacity: 1; }
-    30% { opacity: 0.4; }
-    70% { opacity: 0.6; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0.4;
+    }
+
+    70% {
+        opacity: 0.6;
+    }
 }
 
 @keyframes nebula-pulse {
-    0%, 100% { opacity: 0.3; }
-    50% { opacity: 0.5; }
+
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
 }
 
 /* Space background elements */
@@ -206,23 +247,43 @@ h1 {
 
 /* Planet animations */
 @keyframes orbit-mercury {
-    from { transform: rotate(0deg) translateX(120px) rotate(0deg); }
-    to { transform: rotate(360deg) translateX(120px) rotate(-360deg); }
+    from {
+        transform: rotate(0deg) translateX(120px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(120px) rotate(-360deg);
+    }
 }
 
 @keyframes orbit-venus {
-    from { transform: rotate(0deg) translateX(160px) rotate(0deg); }
-    to { transform: rotate(360deg) translateX(160px) rotate(-360deg); }
+    from {
+        transform: rotate(0deg) translateX(160px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(160px) rotate(-360deg);
+    }
 }
 
 @keyframes orbit-earth {
-    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
-    to { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+    from {
+        transform: rotate(0deg) translateX(200px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(200px) rotate(-360deg);
+    }
 }
 
 @keyframes orbit-mars {
-    from { transform: rotate(0deg) translateX(240px) rotate(0deg); }
-    to { transform: rotate(360deg) translateX(240px) rotate(-360deg); }
+    from {
+        transform: rotate(0deg) translateX(240px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(240px) rotate(-360deg);
+    }
 }
 
 .planet {
@@ -333,9 +394,12 @@ h1 {
 /* Games grid */
 .games-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    /* Force 3 columns */
     gap: 2rem;
     padding: 1rem;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 /* Card styling */
@@ -346,7 +410,6 @@ h1 {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: transform 0.3s, border-color 0.3s;
-    width: 100%;
 }
 
 .game-card:hover {
@@ -509,20 +572,20 @@ h1 {
     h1 {
         font-size: 2rem;
     }
-    
+
     .games-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .game-card img {
         width: 100%;
         height: auto;
     }
-    
+
     .game-links {
         flex-direction: column;
     }
-    
+
     .game-links a {
         width: 100%;
         text-align: center;
