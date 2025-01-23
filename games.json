@@ -8,12 +8,28 @@
         "date": "January 23, 2025 - 13:29:55 UTC"
     },
     {
+        "title": "Snow Plowing Simulator Build 17103448 Windows",
+        "store": "https://store.steampowered.com/app/2096030/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208000#p3208000",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2096030/header.jpg",
+        "date": "January 23, 2025 - 13:29:55 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Project Zomboid Build 17099783 Windows/Mac/Linux",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
         "store": "https://store.steampowered.com/app/108600",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207849#p3207849",
         "branch": "unstable",
         "date": "January 23, 2025 - 03:31:48 UTC"
+    },
+    {
+        "title": "The Farmer Was Replaced Build 17094344 Windows",
+        "store": "https://store.steampowered.com/app/2060160",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207615#p3207615",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/header.jpg",
+        "date": "January 22, 2025 - 17:16:50 UTC",
+        "branch": "public"
     },
     {
         "title": "Prehistoric Kingdom Build 17031476 Windows",
@@ -24,6 +40,14 @@
         "date": "January 22, 2025 - 11:16:35 UTC"
     },
     {
+        "title": "Prehistoric Kingdom Build 17077690 Windows",
+        "store": "https://store.steampowered.com/app/666150",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205060#p3205060",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/666150/header.jpg",
+        "date": "January 22, 2025 - 11:16:35 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Storage Hunter Build 16938866 Windows",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
         "store": "https://store.steampowered.com/app/1442430/Storage_Hunter_Simulator/",
@@ -32,12 +56,28 @@
         "date": "January 21, 2025 - 17:58:54 UTC"
     },
     {
+        "title": "Storage Hunter Build 17065993 Windows",
+        "store": "https://store.steampowered.com/app/1442430",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207612#p3207612",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
+        "date": "January 21, 2025 - 17:58:54 UTC",
+        "branch": "public"
+    },
+    {
         "title": "ContractVille Build 17046165 Windows",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg?t=1735830722",
         "store": "https://store.steampowered.com/app/2698780/ContractVille/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205107#p3205107",
         "branch": "public",
         "date": "January 20, 2025 - 17:23:13 UTC"
+    },
+    {
+        "title": "ContractVille Build 17067745 Windows",
+        "store": "https://store.steampowered.com/app/2698780/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207988#p3207988",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg",
+        "date": "January 20, 2025 - 17:23:13 UTC",
+        "branch": "public"
     },
     {
         "title": "Mini Motorways Build 16932973 Windows/Mac",
@@ -72,7 +112,7 @@
         "date": "January 15, 2025 - 00:40:07 UTC"
     },
     {
-        "title": "Pawn Planet Build 16918707 Windows",
+        "title": "Pawn Planet Build 16987708 Windows",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2479840/header.jpg",
         "store": "https://store.steampowered.com/app/2479840",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3199385#p3199385",
@@ -94,6 +134,14 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3193160#p3193160",
         "branch": "public",
         "date": "January 02, 2025 - 20:23:03 UTC"
+    },
+    {
+        "title": "The Cable Guy Build 16891329 Windows",
+        "store": "https://store.steampowered.com/app/2541310/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3193160#p3193160",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2541310/header.jpg",
+        "date": "January 2, 2025 - 20:23:03 UTC",
+        "branch": "public"
     },
     {
         "title": "Moose Miners Build 16865789",
