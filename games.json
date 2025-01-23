@@ -1,5 +1,13 @@
 [
     {
+        "title": "Aquarist Build 16723084 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1430760/header.jpg?t=1734622892",
+        "store": "https://store.steampowered.com/app/1430760/Aquarist/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3201904#p3201904",
+        "branch": "public",
+        "date": "January 23, 2025 - 16:59:37 UTC"
+    },
+    {
         "title": "Snow Plowing Simulator Build 17103448 Windows",
         "store": "https://store.steampowered.com/app/2096030/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208000#p3208000",
@@ -100,7 +108,7 @@
         "store": "https://store.steampowered.com/app/2541310/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3193160#p3193160",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2541310/header.jpg",
-        "date": "January 2, 2025 - 20:23:03 UTC",
+        "date": "January 02, 2025 - 20:23:03 UTC",
         "branch": "public"
     },
     {
@@ -150,14 +158,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3193299#p3193299",
         "branch": "public",
         "date": "December 17, 2024 - 11:07:38 UTC"
-    },
-    {
-        "title": "Aquarist Build 16723084 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1430760/header.jpg?t=1734622892",
-        "store": "https://store.steampowered.com/app/1430760/Aquarist/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3201904#p3201904",
-        "branch": "public",
-        "date": "December 13, 2024 - 17:11:40 UTC"
     },
     {
         "title": "BloodDome99 Build 16416690 Windows",
