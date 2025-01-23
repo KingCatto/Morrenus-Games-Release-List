@@ -1,6 +1,22 @@
 [
     {
-        "title": "Aquarist Build 16723084 Windows",
+        "title": "Underground Garage Build 17106338 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1452250/header.jpg",
+        "store": "https://store.steampowered.com/app/1452250",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3192948#p3192948",
+        "branch": "public",
+        "date": "January 23, 2025 - 18:00:54 UTC"
+    },
+    {
+        "title": "The Farmer Was Replaced Build 17108649 Windows",
+        "store": "https://store.steampowered.com/app/2060160",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208164#p3208164",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/header.jpg",
+        "date": "January 23, 2025 - 17:43:42 UTC",
+        "branch": "public"
+    },
+    {
+        "title": "Aquarist Build 16989372 Windows",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1430760/header.jpg?t=1734622892",
         "store": "https://store.steampowered.com/app/1430760/Aquarist/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3201904#p3201904",
@@ -22,14 +38,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207849#p3207849",
         "branch": "unstable",
         "date": "January 23, 2025 - 03:31:48 UTC"
-    },
-    {
-        "title": "The Farmer Was Replaced Build 17094344 Windows",
-        "store": "https://store.steampowered.com/app/2060160",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207615#p3207615",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/header.jpg",
-        "date": "January 22, 2025 - 17:16:50 UTC",
-        "branch": "public"
     },
     {
         "title": "Prehistoric Kingdom Build 17077690 Windows",
@@ -134,14 +142,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3192986#p3192986",
         "branch": "public",
         "date": "December 23, 2024 - 09:59:35 UTC"
-    },
-    {
-        "title": "Underground Garage Build 16803569 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1452250/header.jpg",
-        "store": "https://store.steampowered.com/app/1452250",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3192948#p3192948",
-        "branch": "public",
-        "date": "December 19, 2024 - 17:55:46 UTC"
     },
     {
         "title": "CRUMB Circuit Simulator Build 16793873 Windows",
