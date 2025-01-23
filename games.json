@@ -1,13 +1,5 @@
 [
     {
-        "title": "Snow Plowing Simulator Build 16860898 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2096030/header.jpg",
-        "store": "https://store.steampowered.com/app/2096030",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3194318#p3194318",
-        "branch": "public",
-        "date": "January 23, 2025 - 13:29:55 UTC"
-    },
-    {
         "title": "Snow Plowing Simulator Build 17103448 Windows",
         "store": "https://store.steampowered.com/app/2096030/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208000#p3208000",
@@ -32,14 +24,6 @@
         "branch": "public"
     },
     {
-        "title": "Prehistoric Kingdom Build 17031476 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/666150/header.jpg?t=1734923743",
-        "store": "https://store.steampowered.com/app/666150/Prehistoric_Kingdom/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205060#p3205060",
-        "branch": "public",
-        "date": "January 22, 2025 - 11:16:35 UTC"
-    },
-    {
         "title": "Prehistoric Kingdom Build 17077690 Windows",
         "store": "https://store.steampowered.com/app/666150",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205060#p3205060",
@@ -48,28 +32,12 @@
         "branch": "public"
     },
     {
-        "title": "Storage Hunter Build 16938866 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
-        "store": "https://store.steampowered.com/app/1442430/Storage_Hunter_Simulator/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3200130#p3200130",
-        "branch": "public",
-        "date": "January 21, 2025 - 17:58:54 UTC"
-    },
-    {
         "title": "Storage Hunter Build 17065993 Windows",
         "store": "https://store.steampowered.com/app/1442430",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207612#p3207612",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
         "date": "January 21, 2025 - 17:58:54 UTC",
         "branch": "public"
-    },
-    {
-        "title": "ContractVille Build 17046165 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg?t=1735830722",
-        "store": "https://store.steampowered.com/app/2698780/ContractVille/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205107#p3205107",
-        "branch": "public",
-        "date": "January 20, 2025 - 17:23:13 UTC"
     },
     {
         "title": "ContractVille Build 17067745 Windows",
@@ -126,14 +94,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3201711#p3201711",
         "branch": "public",
         "date": "January 10, 2025 - 21:43:27 UTC"
-    },
-    {
-        "title": "The Cable Guy  Build 16753318 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2541310/header.jpg",
-        "store": "https://store.steampowered.com/app/2541310",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3193160#p3193160",
-        "branch": "public",
-        "date": "January 02, 2025 - 20:23:03 UTC"
     },
     {
         "title": "The Cable Guy Build 16891329 Windows",
