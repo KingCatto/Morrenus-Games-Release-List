@@ -311,13 +311,15 @@ function renderGames(append = false) {
             <div class="game-info">
                 <div class="game-title">${game.parsedTitle}</div>
                 ${game.version ? `<div class="game-meta">Version: <span>${game.version}</span></div>` : ''}
+                <div class="game-meta">Branch: <span>${game.branch || 'N/A'}</span></div>
+                <div class="game-meta">Updated: <span>${new Date(game.date).toLocaleString()}</span></div>
                 <div class="game-platforms">
                     ${game.platforms.map(platform => 
                         `<div class="platform-tag">${platform}</div>`
                     ).join('')}
                 </div>
                 <div class="game-links">
-                    <a href="${game.link}" class="forum-link" target="_blank">Forum Page</a>
+                    <a href="${game.forum}" class="forum-link" target="_blank">Forum Page</a>
                     ${game.store ? `<a href="${game.store}" class="store-link" target="_blank">Steam Store</a>` : ''}
                 </div>
             </div>
@@ -349,8 +351,10 @@ function renderRepacks(append = false) {
             <div class="game-info">
                 <div class="game-title">${repack.parsedTitle}</div>
                 ${repack.version ? `<div class="game-meta">Version: <span>${repack.version}</span></div>` : ''}
+                <div class="game-meta">Branch: <span>${repack.branch || 'N/A'}</span></div>
+                <div class="game-meta">Updated: <span>${new Date(repack.date).toLocaleString()}</span></div>
                 <div class="game-links">
-                    <a href="${repack.link}" class="forum-link" target="_blank">Forum Page</a>
+                    <a href="${repack.forum}" class="forum-link" target="_blank">Forum Page</a>
                     ${repack.store ? `<a href="${repack.store}" class="store-link" target="_blank">Steam Store</a>` : ''}
                 </div>
             </div>
@@ -358,7 +362,6 @@ function renderRepacks(append = false) {
         repacksContainer.appendChild(card);
     });
 }
-
 // Setup pagination
 function setupPagination() {
     if (isInfiniteScroll) {
