@@ -12,7 +12,8 @@
         "store": "https://store.steampowered.com/app/1169040",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208169#p3208169",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1169040/header.jpg",
-        "date": "January 23, 2025 - 17:54:25 UTC"
+        "date": "January 23, 2025 - 17:54:25 UTC",
+        "branch": "public"
     },
     {
         "title": "The Farmer Was Replaced Build 17108649 Windows",
@@ -47,18 +48,20 @@
         "date": "January 23, 2025 - 03:31:48 UTC"
     },
     {
-        "title": "The Infected [Branch: Beta] Build 17096298 Windows",
+        "title": "The Infected Build 17096298 Windows",
         "store": "https://store.steampowered.com/app/1360000/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208293#p3208293",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1360000/header.jpg",
-        "date": "January 22, 2025 - 20:34:12 UTC"
+        "date": "January 22, 2025 - 20:34:12 UTC",
+        "branch": "beta"
     },
     {
         "title": "Out of Ore Build 16999984 Windows",
         "store": "https://store.steampowered.com/app/2009350/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3201764#p3201764",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2009350/header.jpg",
-        "date": "January 22, 2025 - 19:19:01 UTC"
+        "date": "January 22, 2025 - 19:19:01 UTC",
+        "branch": "public"
     },
     {
         "title": "Prehistoric Kingdom Build 17077690 Windows",
@@ -177,6 +180,7 @@
         "store": "https://store.steampowered.com/app/1360000/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208293#p3208293",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1360000/header.jpg",
+        "branch": "public",
         "date": "December 17, 2024 - 19:44:09 UTC"
     },
     {
