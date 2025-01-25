@@ -96,6 +96,14 @@
         "branch": "public"
     },
     {
+        "title": "The Hive Build 17070896 Windows/Mac/Linux",
+        "branch": "public",
+        "store": "http://store.steampowered.com/app/1169740",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3209449#p3209449",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1169740/header.jpg",
+        "date": "January 20, 2025 - 23:45:37 UTC"
+    },
+    {
         "title": "ContractVille Build 17067745 Windows",
         "store": "https://store.steampowered.com/app/2698780/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207988#p3207988",
