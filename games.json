@@ -376,6 +376,14 @@
         "date": "February 11, 2023 - 13:03:13 UTC"
     },
     {
+        "title": "Automachef Build 9784970 Windows",
+        "branch": "public",
+        "store": "http://store.steampowered.com/app/984800",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3210664#p3210664",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/984800/header.jpg",
+        "date": "October 24, 2022 - 09:51:18 UTC"
+    },
+    {
         "title": "1993 Space Machine Build 8626490 Windows/Mac/Linux",
         "branch": "public",
         "store": "http://store.steampowered.com/app/373480",
@@ -414,6 +422,14 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3177141#p3177141",
         "branch": "public",
         "date": "June 07, 2020 - 11:42:48 UTC"
+    },
+    {
+        "title": "Bridge Builder Racer Build 5115678 Windows",
+        "branch": "public",
+        "store": "http://store.steampowered.com/app/1084970",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3210653#p3210653",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1084970/header.jpg",
+        "date": "June 3, 2020 - 15:30:51 UTC"
     },
     {
         "title": "Finding Light Build 3841468 Windows",
@@ -502,6 +518,14 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208549#p3208549",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/435100/header.jpg",
         "date": "April 19, 2017 - 09:49:14 UTC"
+    },
+    {
+        "title": "Cat on a Diet Build 1642923 Windows",
+        "branch": "public",
+        "store": "http://store.steampowered.com/app/447890",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3210658#p3210658",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/447890/header.jpg",
+        "date": "February 20, 2017 - 10:43:05 UTC"
     },
     {
         "title": "Balloon Blowout Build 1387948 Windows",
