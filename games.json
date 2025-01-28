@@ -1,5 +1,13 @@
 [
     {
+        "title": "Cosmoteer Starship Architect & Commander Build 17151158 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/799600/header.jpg?t=1733497284",
+        "store": "https://store.steampowered.com/app/799600/Cosmoteer_Starship_Architect__Commander/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205067#p3205067",
+        "branch": "public",
+        "date": "January 27, 2025 - 23:21:17 UTC"
+    },
+    {
         "title": "Tiny Life Build 17148508 Windows/Mac/Linux",
         "branch": "public",
         "store": "http://store.steampowered.com/app/1651490",
@@ -526,13 +534,5 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3199445#p3199445",
         "branch": "public",
         "date": "July 12, 2014 - 04:52:33 UTC"
-    },
-    {
-        "title": "Cosmoteer Starship Architect & Commander Build 17151158 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/799600/header.jpg?t=1733497284",
-        "store": "https://store.steampowered.com/app/799600/Cosmoteer_Starship_Architect__Commander/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205067#p3205067",
-        "branch": "public",
-        "date": "January 27, 2025 – 23:21:17 UTC"
     }
 ]
