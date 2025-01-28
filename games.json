@@ -433,11 +433,11 @@
     },
     {
         "title": "Bayla Bunny Build 1214115 Windows",
-        "branch": "public",
         "store": "https://store.steampowered.com/app/489900/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3210681#p3210681",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/489900/header.jpg",
-        "date": "July 18, 2020 - 09:09:57 UTC"
+        "date": "July 18, 2020 - 09:09:57 UTC",
+        "branch": "public"
     },
     {
         "title": "The Adventures of Kusoge Build 5131923 Windows",
