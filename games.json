@@ -1,5 +1,21 @@
 [
     {
+        "title": "Space Trash Scavenger Build 17184519 Windows",
+        "branch": "public",
+        "store": "https://store.steampowered.com/app/1759350/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3212321#p3212321",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1759350/header.jpg",
+        "date": "January 30, 2025 - 12:52:52 UTC"
+    },
+    {
+        "title": "CRUMB Circuit Simulator Build 17183476 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2198800/header.jpg",
+        "store": "https://store.steampowered.com/app/2198800",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3192898#p3192898",
+        "branch": "public",
+        "date": "January 30, 2025 - 11:17:56 UTC"
+    },
+    {
         "title": "Cosmoteer Starship Architect & Commander Build 17174188 Windows",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/799600/header.jpg?t=1733497284",
         "store": "https://store.steampowered.com/app/799600/Cosmoteer_Starship_Architect__Commander/",
@@ -214,14 +230,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3192986#p3192986",
         "branch": "public",
         "date": "December 23, 2024 - 09:59:35 UTC"
-    },
-    {
-        "title": "CRUMB Circuit Simulator Build 16793873 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2198800/header.jpg",
-        "store": "https://store.steampowered.com/app/2198800",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3192898#p3192898",
-        "branch": "public",
-        "date": "December 19, 2024 - 00:12:42 UTC"
     },
     {
         "title": "Project Zomboid Build 16526698 Windows/Mac/Linux",
