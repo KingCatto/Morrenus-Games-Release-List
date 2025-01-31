@@ -1,5 +1,13 @@
 [
     {
+        "title": "Moose Miners Build 17198341 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2591410/header.jpg",
+        "store": "https://store.steampowered.com/app/2591410",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3194740#p3194740",
+        "branch": "public",
+        "date": "January 31, 2025 - 12:09:31 UTC"
+    },
+    {
         "title": "Space Trash Scavenger Build 17184519 Windows",
         "branch": "public",
         "store": "https://store.steampowered.com/app/1759350/",
@@ -38,14 +46,6 @@
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
         "date": "January 29, 2025 - 14:52:22 UTC",
         "branch": "public"
-    },
-    {
-        "title": "Moose Miners Build 17156418 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2591410/header.jpg",
-        "store": "https://store.steampowered.com/app/2591410",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3194740#p3194740",
-        "branch": "public",
-        "date": "January 28, 2025 - 10:23:39 UTC"
     },
     {
         "title": "Project Zomboid Build 17147957 Windows/Mac/Linux",
