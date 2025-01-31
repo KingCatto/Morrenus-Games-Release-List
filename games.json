@@ -1,5 +1,13 @@
 [
     {
+        "title": "Who's Your Daddy! Build 17202325 Windows/Mac",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/427730/header.jpg?t=1726183140",
+        "store": "https://store.steampowered.com/app/427730/Whos_Your_Daddy/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3213317#p3213317",
+        "branch": "public",
+        "date": "January 31, 2025 - 18:27:18 UTC"
+    },
+    {
         "title": "100% Orange Juice Build 17174237 Windows/Mac/Linux",
         "branch": "public",
         "store": "https://store.steampowered.com/app/282800/",
@@ -190,14 +198,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205073#p3205073",
         "branch": "public",
         "date": "January 16, 2025 - 15:24:54 UTC"
-    },
-    {
-        "title": "Who's Your Daddy! Build 17018296 Windows/Mac",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/427730/header.jpg?t=1726183140",
-        "store": "https://store.steampowered.com/app/427730/Whos_Your_Daddy/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205070#p3205070",
-        "branch": "public",
-        "date": "January 15, 2025 - 21:47:54 UTC"
     },
     {
         "title": "Pawn Planet Build 16987708 Windows",
