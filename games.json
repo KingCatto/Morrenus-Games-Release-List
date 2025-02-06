@@ -1,19 +1,19 @@
 [
     {
-        "title": "Moose Miners Build 17253437 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2591410/header.jpg",
-        "store": "https://store.steampowered.com/app/2591410",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3216824#p3216824",
-        "branch": "public",
-        "date": "February 05, 2025 - 15:21:53 UTC"
-    },
-    {
         "title": "The Sims™ Legacy Collection Build 17257451 Windows",
         "branch": "public",
         "store": "https://store.steampowered.com/app/3314060/The_Sims_Legacy_Collection/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3216992#p3216992",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3314060/header.jpg",
-        "date": "February 04, 2025 - 18:01:33 UTC"
+        "date": "February 6, 2025 - 23:00:03 UTC"
+    },
+    {
+        "title": "Moose Miners Build 17253437 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2591410/header.jpg",
+        "store": "https://store.steampowered.com/app/2591410",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3216824#p3216824",
+        "branch": "public",
+        "date": "February 5, 2025 - 15:21:53 UTC"
     },
     {
         "title": "The Sims™ 2 Legacy Collection Build 17229395 Windows",
