@@ -1,5 +1,13 @@
 [
     {
+        "title": "The Farmer Was Replaced Build 17348760 Windows",
+        "store": "https://store.steampowered.com/app/2060160",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3209996#p3209996",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/header.jpg",
+        "date": "February 13, 2025 - 08:46:51 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Rolling Line Build 17345775 Windows",
         "branch": "public",
         "store": "https://store.steampowered.com/app/754150/Rolling_Line/",
@@ -142,14 +150,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3210672#p3210672",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1562260/header.jpg",
         "date": "January 27, 2025 - 17:48:36 UTC"
-    },
-    {
-        "title": "The Farmer Was Replaced Build 17136147 Windows",
-        "store": "https://store.steampowered.com/app/2060160",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3209996#p3209996",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/header.jpg",
-        "date": "January 26, 2025 - 11:49:15 UTC",
-        "branch": "public"
     },
     {
         "title": "Danger Scavenger Build 17131517 Windows/Mac/Linux",
