@@ -8,6 +8,22 @@
         "branch": "public"
     },
     {
+        "title": "Timberborn [Branch: experimental] Build 17332837 Windows/Mac",
+        "branch": "experimental",
+        "store": "https://store.steampowered.com/app/1062090/Timberborn/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3220927#p3220927",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1062090/header.jpg",
+        "date": "February 12, 2025 - 08:54:44 UTC"
+    },
+    {
+        "title": "Timberborn Build 17278206 Windows/Mac",
+        "branch": "public",
+        "store": "https://store.steampowered.com/app/1062090/Timberborn/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3220927#p3220927",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1062090/header.jpg",
+        "date": "February 7, 2025 - 11:36:05 UTC"
+    },
+    {
         "title": "The Sims™ Legacy Collection Build 17257451 Windows",
         "branch": "public",
         "store": "https://store.steampowered.com/app/3314060/The_Sims_Legacy_Collection/",
