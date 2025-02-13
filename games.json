@@ -1,5 +1,13 @@
 [
     {
+        "title": "Rolling Line Build 17345775 Windows",
+        "branch": "public",
+        "store": "https://store.steampowered.com/app/754150/Rolling_Line/s",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3221009#p3221009",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/754150/header.jpg",
+        "date": "February 13, 2025 - 03:12:43 UTC"
+    },
+    {
         "title": "Storage Hunter Build 17335849 Windows",
         "store": "https://store.steampowered.com/app/1442430",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3212319#p3212319",
