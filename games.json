@@ -16,6 +16,14 @@
         "date": "February 13, 2025 - 21:45:22 UTC"
     },
     {
+        "title": "Paleon Build 17351276 Windows/Linux",
+        "branch": "public",
+        "store": "https://store.steampowered.com/app/1554220/Paleon/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3221358#p3221358",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1554220/header.jpg",
+        "date": "February 13, 2025 - 12:03:07 UTC"
+    },
+    {
         "title": "The Farmer Was Replaced Build 17348760 Windows",
         "store": "https://store.steampowered.com/app/2060160",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3209996#p3209996",
@@ -166,14 +174,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3209447#p3209447",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1169740/header.jpg",
         "date": "January 25, 2025 - 21:42:29 UTC"
-    },
-    {
-        "title": "Paleon Build 17130512 Windows/Linux",
-        "branch": "public",
-        "store": "https://store.steampowered.com/app/1554220/Paleon/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3209353#p3209353",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1554220/header.jpg",
-        "date": "January 25, 2025 - 13:53:39 UTC"
     },
     {
         "title": "Necesse Build 17129871 Windows/Mac/Linux",
