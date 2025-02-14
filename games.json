@@ -1,5 +1,13 @@
 [
     {
+        "title": "Project Zomboid [Branch: unstable] Build 17342164 Windows/Mac/Linux",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+        "store": "https://store.steampowered.com/app/108600",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3221304#p3221304",
+        "branch": "unstable",
+        "date": "February 13, 2025 - 23:10:06 UTC"
+    },
+    {
         "title": "The Farmer Was Replaced Build 17348760 Windows",
         "store": "https://store.steampowered.com/app/2060160",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3209996#p3209996",
@@ -126,14 +134,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3201904#p3201904",
         "branch": "public",
         "date": "January 29, 2025 - 15:28:01 UTC"
-    },
-    {
-        "title": "Project Zomboid Build 17147957 Windows/Mac/Linux",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
-        "store": "https://store.steampowered.com/app/108600",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3210619#p3210619",
-        "branch": "unstable",
-        "date": "January 27, 2025 - 21:30:13 UTC"
     },
     {
         "title": "Tiny Life Build 17148508 Windows/Mac/Linux",
