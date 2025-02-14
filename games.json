@@ -624,6 +624,14 @@
         "date": "February 20, 2017 - 10:43:05 UTC"
     },
     {
+        "title": "The Stanley Parable Build 1541646 Windows/Mac/Linux",
+        "branch": "public",
+        "store": "https://store.steampowered.com/app/221910",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3221280#p3221280",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/221910/header.jpg",
+        "date": "December 27, 2016 - 08:08:50 UTC"
+    },
+    {
         "title": "Access Denied Build 1525953 Windows",
         "branch": "public",
         "store": "https://store.steampowered.com/app/562570/",
