@@ -64,6 +64,14 @@
         "date": "February 12, 2025 - 08:54:44 UTC"
     },
     {
+        "title": "Snow Plowing Simulator Build 17313402 Windows",
+        "store": "https://store.steampowered.com/app/2096030/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208000#p3208000",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2096030/header.jpg",
+        "date": "February 10, 2025 - 23:38:28 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Timberborn Build 17278206 Windows/Mac",
         "branch": "public",
         "store": "https://store.steampowered.com/app/1062090/Timberborn/",
@@ -206,14 +214,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3192948#p3192948",
         "branch": "public",
         "date": "January 23, 2025 - 18:00:54 UTC"
-    },
-    {
-        "title": "Snow Plowing Simulator Build 17103448 Windows",
-        "store": "https://store.steampowered.com/app/2096030/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208000#p3208000",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2096030/header.jpg",
-        "date": "January 23, 2025 - 13:29:55 UTC",
-        "branch": "public"
     },
     {
         "title": "The Infected Build 17096298 Windows",
