@@ -1,5 +1,21 @@
 [
     {
+        "title": "Moose Miners Build 17546197 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2591410/header.jpg",
+        "store": "https://store.steampowered.com/app/2591410",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3216824#p3216824",
+        "branch": "public",
+        "date": "February 28, 2025 - 11:51:58 UTC"
+    },
+    {
+        "title": "Storage Hunter Build 17512746 Windows",
+        "store": "https://store.steampowered.com/app/1442430",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3231168#p3231168",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
+        "date": "February 27, 2025 - 11:35:27 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Project Zomboid [Branch: unstable] Build 17342164 Windows/Mac/Linux",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
         "store": "https://store.steampowered.com/app/108600",
@@ -48,14 +64,6 @@
         "date": "February 12, 2025 - 13:22:01 UTC"
     },
     {
-        "title": "Storage Hunter Build 17335849 Windows",
-        "store": "https://store.steampowered.com/app/1442430",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3212319#p3212319",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
-        "date": "February 12, 2025 - 12:30:25 UTC",
-        "branch": "public"
-    },
-    {
         "title": "Timberborn Build 17332837 Windows/Mac",
         "branch": "experimental",
         "store": "https://store.steampowered.com/app/1062090/Timberborn/",
@@ -88,20 +96,20 @@
         "date": "February 6, 2025 - 23:00:03 UTC"
     },
     {
-        "title": "Moose Miners Build 17253437 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2591410/header.jpg",
-        "store": "https://store.steampowered.com/app/2591410",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3216824#p3216824",
-        "branch": "public",
-        "date": "February 5, 2025 - 15:21:53 UTC"
-    },
-    {
         "title": "The Sims™ 2 Legacy Collection Build 17229395 Windows",
         "branch": "public",
         "store": "https://store.steampowered.com/app/3314070",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3217013#p3217013",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3314070/header.jpg",
         "date": "February 4, 2025 - 18:00:40 UTC"
+    },
+    {
+        "title": "The Cable Guy Build 17216692 Windows",
+        "store": "https://store.steampowered.com/app/2541310/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3193160#p3193160",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2541310/header.jpg",
+        "date": "February 03, 2025 - 08:49:12 UTC",
+        "branch": "public"
     },
     {
         "title": "Hot Dogs, Horseshoes & Hand Grenades Build 17206556 Windows",
@@ -286,14 +294,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3201711#p3201711",
         "branch": "public",
         "date": "January 10, 2025 - 21:43:27 UTC"
-    },
-    {
-        "title": "The Cable Guy Build 16891329 Windows",
-        "store": "https://store.steampowered.com/app/2541310/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3193160#p3193160",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2541310/header.jpg",
-        "date": "January 02, 2025 - 20:23:03 UTC",
-        "branch": "public"
     },
     {
         "title": "Idle Colony Build 16836053 Windows",
