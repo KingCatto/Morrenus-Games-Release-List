@@ -1,5 +1,37 @@
 [
     {
+        "title": "Project Zomboid [Branch: unstable] Build 17594242 Windows/Mac/Linux",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+        "store": "https://store.steampowered.com/app/108600",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3233003#p3233003",
+        "branch": "unstable",
+        "date": "March 05, 2025 - 09:47:38 UTC"
+    },
+    {
+        "title": "Widget Inc Build 17595256 Windows",
+        "branch": "public",
+        "store": "http://store.steampowered.com/app/3184110",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3233006#p3233006",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3184110/header.jpg",
+        "date": "March 4, 2025 - 21:56:31 UTC"
+    },
+    {
+        "title": "The Infected Build 17567706 Windows",
+        "store": "https://store.steampowered.com/app/1360000/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208293#p3208293",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1360000/header.jpg",
+        "branch": "public",
+        "date": "March 02, 2025 - 22:07:09 UTC"
+    },
+    {
+        "title": "ContractVille Build 17547922 Windows",
+        "store": "https://store.steampowered.com/app/2698780/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3233007#p3233007",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg",
+        "date": "February 28, 2025 - 14:18:20 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Moose Miners Build 17546197 Windows",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2591410/header.jpg",
         "store": "https://store.steampowered.com/app/2591410",
@@ -14,14 +46,6 @@
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
         "date": "February 27, 2025 - 11:35:27 UTC",
         "branch": "public"
-    },
-    {
-        "title": "Project Zomboid [Branch: unstable] Build 17342164 Windows/Mac/Linux",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
-        "store": "https://store.steampowered.com/app/108600",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3221304#p3221304",
-        "branch": "unstable",
-        "date": "February 13, 2025 - 23:10:06 UTC"
     },
     {
         "title": "Ultra Cop Build 17358137 Windows",
@@ -248,14 +272,6 @@
         "date": "January 20, 2025 - 23:45:37 UTC"
     },
     {
-        "title": "ContractVille Build 17067745 Windows",
-        "store": "https://store.steampowered.com/app/2698780/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3207988#p3207988",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg",
-        "date": "January 20, 2025 - 17:23:13 UTC",
-        "branch": "public"
-    },
-    {
         "title": "Mini Motorways Build 16932973 Windows/Mac",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1127500/header.jpg?t=1667780984",
         "store": "https://store.steampowered.com/app/1127500/Mini_Motorways/",
@@ -318,14 +334,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3193682#p3193682",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
         "date": "December 17, 2024 - 21:16:43 UTC"
-    },
-    {
-        "title": "The Infected Build 16777423 Windows",
-        "store": "https://store.steampowered.com/app/1360000/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3208293#p3208293",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1360000/header.jpg",
-        "branch": "public",
-        "date": "December 17, 2024 - 19:44:09 UTC"
     },
     {
         "title": "shapez 2 Build 16770018 Windows/Mac/Linux",
