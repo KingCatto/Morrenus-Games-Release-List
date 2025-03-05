@@ -1,5 +1,13 @@
 [
     {
+        "title": "Project Zomboid [Branch: unstable] Build 17594242 Windows/Mac/Linux",
+        "branch": "unstable",
+        "store": "https://store.steampowered.com/app/108600",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3233003#p3233003",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+        "date": "March 5, 2025 - 09:47:38 UTC"
+    },
+    {
         "title": "Widget Inc Build 17595256 Windows",
         "branch": "public",
         "store": "http://store.steampowered.com/app/3184110",
