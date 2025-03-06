@@ -1,5 +1,13 @@
 [
     {
+        "title": "Chernobylite 2 Exclusion Zone Build 17612208 Windows",
+        "branch": "public",
+        "store": "https://store.steampowered.com/app/2075100/Chernobylite_2_Exclusion_Zone/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3233619#p3233619",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2075100/header.jpg",
+        "date": "March 6, 2025 - 09:35:20 UTC"
+    },
+    {
         "title": "Project Zomboid Build 17594242 Windows/Mac/Linux",
         "branch": "unstable",
         "store": "https://store.steampowered.com/app/108600",
