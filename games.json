@@ -1,5 +1,13 @@
 [
     {
+        "title": "Storage Hunter Build 17621241 Windows",
+        "store": "https://store.steampowered.com/app/1442430",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3236695#p3236695",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
+        "date": "March 11, 2025 - 12:36:14 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Rolling Line Build 17628159 Windows",
         "branch": "public",
         "store": "https://store.steampowered.com/app/754150/Rolling_Line/",
@@ -62,14 +70,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3216824#p3216824",
         "branch": "public",
         "date": "February 28, 2025 - 11:51:58 UTC"
-    },
-    {
-        "title": "Storage Hunter Build 17512746 Windows",
-        "store": "https://store.steampowered.com/app/1442430",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3231168#p3231168",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1442430/header.jpg",
-        "date": "February 27, 2025 - 11:35:27 UTC",
-        "branch": "public"
     },
     {
         "title": "Ultra Cop Build 17358137 Windows",
