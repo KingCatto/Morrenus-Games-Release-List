@@ -1,5 +1,13 @@
 [
     {
+        "title": "Project Zomboid Build 17693727 Windows/Mac/Linux",
+        "branch": "unstable",
+        "store": "https://store.steampowered.com/app/108600",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3237724#p3237724",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+        "date": "March 12, 2025 - 14:11:39 UTC"
+    },
+    {
         "title": "Ship Graveyard Simulator 2 Build 17677057 Windows",
         "branch": "public",
         "store": "https://store.steampowered.com/app/2201940/Ship_Graveyard_Simulator_2/",
@@ -38,14 +46,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3233619#p3233619",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2075100/header.jpg",
         "date": "March 6, 2025 - 09:35:20 UTC"
-    },
-    {
-        "title": "Project Zomboid Build 17594242 Windows/Mac/Linux",
-        "branch": "unstable",
-        "store": "https://store.steampowered.com/app/108600",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3233003#p3233003",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
-        "date": "March 5, 2025 - 09:47:38 UTC"
     },
     {
         "title": "Widget Inc Build 17595256 Windows",
