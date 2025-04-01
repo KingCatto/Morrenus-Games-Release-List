@@ -1,5 +1,13 @@
 [
     {
+        "title": "ContractVille Build 17884548 Windows",
+        "store": "https://store.steampowered.com/app/2698780/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3250097#p3250097",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg",
+        "date": "March 27, 2025 - 15:19:35 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Storage Hunter Build 17854436 Windows",
         "store": "https://store.steampowered.com/app/1442430",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3248047#p3248047",
@@ -30,14 +38,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3239112#p3239112",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3314060/header.jpg",
         "date": "March 14, 2025 - 18:02:44 UTC"
-    },
-    {
-        "title": "ContractVille Build 17726401 Windows",
-        "store": "https://store.steampowered.com/app/2698780/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3239123#p3239123",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg",
-        "date": "March 14, 2025 - 14:10:22 UTC",
-        "branch": "public"
     },
     {
         "title": "Snow Plowing Simulator Build 17711506 Windows",
