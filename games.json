@@ -1,5 +1,13 @@
 [
     {
+        "title": "ContractVille Build 18347332 Windows",
+        "store": "https://store.steampowered.com/app/2698780/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3276107#p3276107",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg",
+        "date": "May 05, 2025 - 15:08:37 UTC",
+        "branch": "public"
+    },
+    {
         "title": "Out of Ore Build 18060164 Windows",
         "branch": "beta",
         "store": "https://store.steampowered.com/app/2009350/Out_of_Ore/",
@@ -14,14 +22,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3201911#p3201911",
         "branch": "public",
         "date": "March 27, 2025 - 17:24:43 UTC"
-    },
-    {
-        "title": "ContractVille Build 17884548 Windows",
-        "store": "https://store.steampowered.com/app/2698780/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3250097#p3250097",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698780/header.jpg",
-        "date": "March 27, 2025 - 15:19:35 UTC",
-        "branch": "public"
     },
     {
         "title": "Storage Hunter Build 17854436 Windows",
