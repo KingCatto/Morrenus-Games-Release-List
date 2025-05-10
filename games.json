@@ -1,5 +1,13 @@
 [
     {
+        "title": "Pawn Planet Build 18401143 Windows",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2479840/header.jpg",
+        "store": "https://store.steampowered.com/app/2479840",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3277649#p3277649",
+        "branch": "public",
+        "date": "May 09, 2025 - 09:53:35 UTC"
+    },
+    {
         "title": "ContractVille Build 18347332 Windows",
         "store": "https://store.steampowered.com/app/2698780/",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3276107#p3276107",
@@ -318,14 +326,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3205073#p3205073",
         "branch": "public",
         "date": "January 16, 2025 - 15:24:54 UTC"
-    },
-    {
-        "title": "Pawn Planet Build 16987708 Windows",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2479840/header.jpg",
-        "store": "https://store.steampowered.com/app/2479840",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3199385#p3199385",
-        "branch": "public",
-        "date": "January 13, 2025 - 16:51:26 UTC"
     },
     {
         "title": "Terra Nil Build 16986433 Windows/Mac/Linux",
