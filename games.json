@@ -64,6 +64,14 @@
         "date": "March 24, 2025 - 14:08:25 UTC"
     },
     {
+        "title": "The Long Dark Build 17697183 Windows/Mac/Linux",
+        "branch": "public",
+        "store": "https://store.steampowered.com/app/305620/The_Long_Dark/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3280458#p3280458",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/305620/header.jpg",
+        "date": "March 19, 2025 - 18:01:44 UTC"
+    },
+    {
         "title": "The Farmer Was Replaced Build 17763496 Windows",
         "store": "https://store.steampowered.com/app/2060160",
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3250496#p3250496",
@@ -374,14 +382,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3192986#p3192986",
         "branch": "public",
         "date": "December 23, 2024 - 09:59:35 UTC"
-    },
-    {
-        "title": "The Long Dark Build 16792315 Windows/Mac/Linux",
-        "branch": "public",
-        "store": "https://store.steampowered.com/app/305620/The_Long_Dark/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3233310#p3233310",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/305620/header.jpg",
-        "date": "December 19, 2024 - 01:22:42 UTC"
     },
     {
         "title": "Project Zomboid Build 16526698 Windows/Mac/Linux",
