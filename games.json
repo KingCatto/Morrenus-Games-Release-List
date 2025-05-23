@@ -8,6 +8,14 @@
         "date": "May 21, 2025 - 06:47:33 UTC"
     },
     {
+        "title": "Rolling Line Build 18543626 Windows",
+        "branch": "public",
+        "store": "https://store.steampowered.com/app/754150/Rolling_Line/",
+        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3221009#p3221009",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/754150/header.jpg",
+        "date": "May 21, 2025 - 04:14:38 UTC"
+    },
+    {
         "title": "Animal Spa Build 18439940 Windows/Mac",
         "branch": "public",
         "store": "https://store.steampowered.com/app/3404470/Animal_Spa/",
@@ -118,14 +126,6 @@
         "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3236833#p3236833",
         "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2201940/header.jpg",
         "date": "March 13, 2025 - 14:24:03 UTC"
-    },
-    {
-        "title": "Rolling Line Build 17628159 Windows",
-        "branch": "public",
-        "store": "https://store.steampowered.com/app/754150/Rolling_Line/",
-        "forum": "https://cs.rin.ru/forum/viewtopic.php?p=3221009#p3221009",
-        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/754150/header.jpg",
-        "date": "March 07, 2025 - 01:02:46 UTC"
     },
     {
         "title": "Necesse Build 17621051 Windows/Mac/Linux",
